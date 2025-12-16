@@ -1,7 +1,7 @@
 class Solution {
     fun convert(s: String, numRows: Int): String {
 
-        // Edge case: no zigzag possible
+        // case: no zigzag possible
         if (numRows == 1 || numRows >= s.length) {
             return s
         }
